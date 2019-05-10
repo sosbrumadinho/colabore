@@ -1,0 +1,206 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>OFICINA MECÂNICA</title>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="menu-wrap">
+  <div class="menu">
+    <ul>
+      <li><a href="index.html" class="active">Página Incial</a></li>
+      <li><a href="about.html">Sobre</a></li>
+      <li><a href="services.html">Serviços</a></li>
+      <li><a href="solutions.html">Soluções</a></li>
+      <li><a href="careers.html">Carreira</a></li>
+      <li><a href="contact.html">Contato</a></li>
+    </ul>
+  </div>
+</div>
+<!--------fim do menu--------->
+<div class="clearing"></div>
+<div class="header">
+  <div class="logo">
+    <h1>OFICINA<span>X</span></h1>
+  </div>
+  <div class="social">
+    <ul>
+      <li><a href="#"><img src="images/aim.png" alt="aim" /></a></li>
+      <li><a href="#"><img src="images/facebook.png" alt="facebook" /></a></li>
+      <li><a href="#"><img src="images/twwtter.png" alt="tiwwter" /></a></li>
+      <li><a href="#"><img src="images/linkedin.png" alt="linkedin'" /></a></li>
+    </ul>
+  </div>
+</div>
+<!--------header wrap ends--------->
+<div class="banner">
+  <h1>Proximidade com o cliente</h1>
+  <h2>Criando laços de confiança</h2>
+</div>
+<!--------banner end-------->
+<div class="page">
+  <div class="primary-col">
+    <div class="generic">
+      <div class="panel">
+        <div class="title">
+          <h1>Login Cliente</h1>
+        </div>
+        <div class="content">
+          <form action="/action_page.php">
+  <div class="imgcontainer">
+    <img src="images/img3.jpg" alt="image" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Login: </b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Senha: </b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit"><a href="index.html">Login</a></button>
+    <input type="checkbox" checked="checked"> Lembrar login
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancelar</button>
+    <span class="psw">Esqueceu a <a href="#">senha?</a></span>
+  </div>
+</form>
+        </div>
+      </div>
+    </div>
+    <div class="block float-left mar-top30">
+      <div class=" panel">
+        <div class="title">
+          <h1>Equipe responsável e altamente treinada</h1>
+        </div>
+        <div class="content"> <img src="images/img4.jpg"  alt="img" height="240" width="240"/>
+          <h2>Nam iaculis fermentum </h2>
+          <p>Trices lacinia sem interdum vitae. Suspendisse a urna id nulla hendrerit porttitor ultrices in odio. Vivamus varius, arcu id vestibulum sagittis, lorem</p>
+          <h2>Nam iaculis fermentum </h2>
+          <p>Trices lacinia sem interdum vitae. Suspendisse a urna id nulla hendrerit porttitor ultrices in odio. </p>
+          <div class="button"><a href="#">more info</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="block float-right mar-top30">
+      <div class=" panel">
+        <div class="title">
+          <h1>Respeito com o cliente</h1>
+        </div>
+        <div class="content"> <img src="images/img5.jpg"  alt="img" height="240" width="240"/>
+          <h2>Nam iaculis fermentum </h2>
+          <p>Trices lacinia sem interdum vitae. Suspendisse a urna id nulla hendrerit porttitor ultrices in odio. Vivamus varius, arcu id vestibulum sagittis, lorem</p>
+          <h2>Nam iaculis fermentum </h2>
+          <p>Trices lacinia sem interdum vitae. Suspendisse a urna id nulla hendrerit porttitor ultrices in odio. </p>
+          <div class="button"><a href="#">more info</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----primary end--->
+  <div class="side-bar">
+    <div class="search">
+      <div class="title">
+        <h1>Pesquisar</h1>
+      </div>
+      <ul>
+        <li>
+          <input name="" type="text"  class="textfiled"/>
+        </li>
+        <li><img src="images/search-icon.jpg" alt="search" /></li>
+      </ul>
+    </div>
+    <div class="clearing"></div>
+    <div class="panel">
+      <div class="title"> <span><img src="images/icon1.jpg" alt="icon" /></span>
+        <h1>Opções</h1>
+      </div>
+      <div class="content">
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li class="-no-border-bottom"><a href="#"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="clearing"></div>
+    <div class="panel mar-top30">
+      <div class="title"> <span><img src="images/icon2.jpg" alt="icon" /></span>
+        <h1>Meios de acesso</h1>
+      </div>
+      <div class="content"> <img src="images/img1.jpg" alt="image" height="100" width="100" />
+        <div class="recentPost"> Funções administrativas da oficina <a href="#">Acesso gerente</a> </div>
+      </div>
+      <div class="clearing"></div>
+      <div class="content mar-top30"> <img src="images/img2.jpg" alt="image" height="100" width="100"/>
+        <div class="recentPost"> Consultas e registros <a href="#">Acesso funcionário</a> </div>
+      </div>
+      <div class="clearing"></div>
+      <div class="content mar-top30"> <img src="images/img3.jpg" alt="image"  height="100" width="100"/>
+        <div class="recentPost"> Área do cliente <a href="#">Acesso clientes</a> </div>
+      </div>
+    </div>
+  </div>
+  <!---side-bar-end--->
+</div>
+<!---page-end--->
+<div class="clearing"></div>
+<div class="primary-footer">
+  <div class="footer-wrap">
+    <div class="footer">
+      <div class="page">
+        <div class="panel mar-right30">
+          <div class="title">
+            <h1>Quem somos?</h1>
+          </div>
+          <div class="content">
+            <P>Prestadores de serviços do ramo da manutenção de carros por mais de 931 anos, a oficina X trabalha com carros desde da época
+que as potências de cavalo eram de fatos cavalos potentes, com tradição e dedicação nossa alegria é servir você</P>
+            <div class="button"><a href="#">Mais informações</a></div>
+          </div>
+        </div>
+        <div class="panel mar-right30">
+          <div class="title">
+            <h1>Outros links uteis</h1>
+          </div>
+          <div class="content">
+            <ul>
+              <li><a href="#">Como estou dirigindo?</a></li>
+              <li><a href="#">Porque fico fazendo perguntas a mim mesmo?</a></li>
+              <li><a href="#">Sério, eu preciso parar com isso</a></li>
+              <li class="-no-border-bottom"><a href="#">Saiba mais em encontroentregolpebaixoevanessa.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="title">
+            <h1>Transparência no serviço</h1>
+          </div>
+          <div class="content">
+            <p>Melhor oficina no jogo, sério, não tem melhor! Sim, somos os melhores mesmo, podem ir perguntar ao próprio Ford. Ninguém é mais claro e aberto aos métodos e serviços que nós mesmo. É incrível</p>
+            <div class="button"><a href="#">Mais infos</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright-wrap">
+    <div class="panel">
+      <div class="content">
+        <P>Copyright (c) OFICINAX Todos os direitos reservados </P>
+        <p>< <a href="#google.com">google.com</a> > Images From: <a href="www.fb.com">fb.com</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--primary-footer-end--->
+</body>
+</html>
