@@ -49,7 +49,7 @@ HEADER CLASSES
 /*-------------------------------------------------
 BANNER CLASSES
 -------------------------------------------------*/
-.banner{width:960px; height:340px; margin:0 auto; margin-bottom:60px; background:url(../images/banner-image.jpg) no-repeat; position:relative;}
+.banner{width:960px; height:340px; margin:0 auto; margin-bottom:60px; background:url(../img/banner-image.jpg) no-repeat; position:relative;}
 .banner h1{ padding:10px; float:right; background:#1a202c; text-transform:uppercase; color:#ffffff;  font-size:30px; font-weight:normal; position:absolute; top:130px; right:0;}
 .banner h2{ padding:10px; float:right; background:#ffffff; text-transform:uppercase; color:#1a202c;  font-size:22px; font-weight:normal; font-family: 'Oswald', sans-serif;position:absolute; top:195px; right:0;}
 /*-------------------------------------------------
