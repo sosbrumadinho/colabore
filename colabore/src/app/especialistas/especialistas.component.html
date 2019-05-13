@@ -1,0 +1,74 @@
+<div id="wrapper">
+    <app-nav-restrito></app-nav-restrito>
+
+
+    <div id="page-wrapper">
+        <div id="page-inner">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Especialistas</h2>
+                </div>
+            </div>
+            <!-- /. ROW  -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Buscar:</label>
+                        <input class="form-control" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label>Clique para achar especialistas:</label>
+                    <a href="#" class="btn btn-danger btn-lg btn-block">Procurar especialistas</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Especialistas</h5>
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Nome do especialista</th>
+                                <th>Mini CV</th>
+                                <th>Convidar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Especialista 1</td>
+                                <td>USP</td>
+                                <td>wwwwbbbb@usp.com <input type="checkbox" name="especialista1"
+                                        value="wwwwbbbb@usp.com"> </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Especialista 2</td>
+                                <td>UFF</td>
+                                <td>wwwdddwbbbb@uff.com <input type="checkbox" name="especialista1"
+                                        value="wwwwbbbb@usp.com"> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a routerLink="/problemas" routerLinkActive="active" class="btn btn-danger btn-lg btn-block">Convidar
+                        especialistas</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>Informações</h5>
+                    Esta página permite o acesso rápido às informações a cerca de todas as peças no estoque. Aqui
+                    você pode consultá-las assim como cadastrar novas peças ou removê-las.
+                </div>
+            </div>
+            <!-- /. ROW  -->
+
+        </div>
+        <!-- /. PAGE INNER  -->
+    </div>
+
+</div>
+
+<app-footer-restrito></app-footer-restrito>

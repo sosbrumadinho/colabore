@@ -1,3 +1,5 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 /*-------------------------------------------------
 GLOBALS CLASSES 
 -------------------------------------------------*/
@@ -55,7 +57,7 @@ BANNER CLASSES
 /*-------------------------------------------------
 MAIN COLUMAS CLASSES
 -------------------------------------------------*/
-.primary-col{ width:650px; overflow:hidden; float:left;}
+.primary-col{ width:800px; overflow:hidden;}
 .primary-col p{ padding-bottom:20px;}
 .generic{ float:left; overflow:hidden; width:100%;}
 .generic .panel{ padding:30px 30px 30px 30px;}
