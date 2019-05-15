@@ -1,0 +1,42 @@
+<app-nav></app-nav>
+<div class="page">
+  <div class="primary-col">
+    <div class="generic">
+      <div class="panel">
+        <div class="title">
+          <h1>Login</h1>
+        </div>
+        <div class="content">
+          <form [formGroup]="formUsuario">
+
+            <div class="imgcontainer">
+              <img src="../../assets/img/img1.jpg" alt="image" class="avatar">
+            </div>
+
+            <div class="container">
+              <label><b>Login: </b></label>
+              <input type="text" placeholder="Informe o usuário" name="uname" required>
+
+              <label><b>Senha: </b></label>
+              <input type="password" placeholder="Informe a senha" name="psw" required>
+
+              <input type="submit" class="btn btn-primary mt-4" value="Salvar">
+
+              <button type="submit"><a href="\problemas">Login</a></button>
+              <input type="checkbox" checked="checked"> Lembrar login
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn">Cancelar</button>
+              <span class="psw">Esqueceu a <a href="#">senha?</a></span>
+              <br>
+              <span class="psw">Novo por aqui? <a href="#">Cadastre-se</a></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----primary end--->
+</div>
+<app-footer></app-footer>

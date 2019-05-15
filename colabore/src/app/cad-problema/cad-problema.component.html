@@ -1,0 +1,69 @@
+<div id="wrapper">
+  <app-nav-restrito></app-nav-restrito>
+  <div id="page-wrapper">
+    <div id="page-inner">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Cadastro de Problemas</h2>
+        </div>
+      </div>
+      <!-- /. ROW  -->
+      <hr />
+
+      <div class="row">
+        <form [formGroup]="formProblema">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="titulo">Problema</label>
+              <input type="text" class="form-control" placeholder="Informe um título para o problema" name="titulo"
+                id="titulo" required />
+            </div>
+            <div class="form-group">
+              <label for="descricao">Descrição:</label>
+              <textarea class="form-control" placeholder="Informe a descrição" name="descricao" id="descricao" rows="10"
+                required></textarea>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="area">Áreas do conhecimento:</label>
+              <input class="form-control" placeholder="Informe a área do conhecimento" name="area" #area required />
+              <button class="w50" (click)="addRow(area.value)">Add</button>
+            </div>
+
+            <div class="example-container mat-elevation-z8">
+              <mat-table #table [dataSource]="dataSource">
+
+
+                <!-- Name Column -->
+                <ng-container matColumnDef="areatb">
+                  <mat-header-cell *matHeaderCellDef> Área </mat-header-cell>
+                  <mat-cell *matCellDef="let row"> {{row.area}} </mat-cell>
+                </ng-container>
+
+                <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                <mat-row [@rowsAnimation]="" *matRowDef="let row; columns: displayedColumns;"></mat-row>
+              </mat-table>
+            </div>
+          </div>
+
+        </form>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <a routerLink="/problemas" routerLinkActive="active" class="btn btn-danger btn-lg btn-block">Cadastrar</a>
+          <a routerLink="/especialistas" routerLinkActive="active" class="btn btn-danger btn-lg btn-block">Cadastrar e buscar especialistas</a>
+          <h5>Informações</h5>
+          Esta página permite o cadastro de problemas.
+        </div>
+      </div>
+      <!-- /. ROW  -->
+
+    </div>
+    <!-- /. PAGE INNER  -->
+  </div>
+
+
+</div>
+
+<app-footer-restrito></app-footer-restrito>
